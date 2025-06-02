@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nhận Code Ngay</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      min-height: 100vh;
+      min-width: 100vw;
+      /* Thay link ảnh bên dưới bằng link ảnh của bạn */
+      background: url('./bg3.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .center-content {
+      background: rgba(255,255,255,0.55);
+      backdrop-filter: blur(6px);
+      border-radius: 24px;
+      padding: 40px 32px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+    .main-btn {
+      display: inline-block;
+      font-size: 1.3rem;
+      background: #2563eb;
+      color: #fff;
+      border: none;
+      border-radius: 999px;
+      padding: 18px 48px;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.2s;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    }
+    .main-btn:hover {
+      background: #1d4ed8;
+      transform: translateY(-2px) scale(1.05);
+    }
+    @media (max-width: 600px) {
+      .center-content {
+        padding: 24px 8px;
+      }
+      .main-btn {
+        font-size: 1rem;
+        padding: 14px 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="center-content">
+    <a class="main-btn" href="https://your-link.com">NHẬN NGAY</a>
+  </div>
+</body>
+</html>
